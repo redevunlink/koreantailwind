@@ -54,7 +54,7 @@ const testimonials = [
     },
   },
   {
-    content: `I started using @tailwindcss. I instantly fell in love with their responsive modifiers, thorough documentation, and how easy it was customizing color palettes.`,
+    content: `@tailwindcss 사용을 시작했습니다. 저는 그들의 반응형 변수에 놀랐으며, 문서와, 컬러 팔레트 선택의 쉬움에 또 놀랐습니다.`,
     tweetUrl: 'https://twitter.com/dacey_nolan/status/1303744545587441666',
     author: {
       name: 'Dacey Nolan',
@@ -64,7 +64,7 @@ const testimonials = [
   },
 
   {
-    content: 'Loved it the very moment I used it.',
+    content: '사용하기 시작했을 때 부터 사랑했습니다.',
     tweetUrl: 'Gilbert Rabut Tsurwa',
     author: {
       name: 'Gilbert Rabut Tsurwa',
@@ -75,7 +75,7 @@ const testimonials = [
 
   {
     content:
-      'I came into my job wondering why the last dev would ever implement Tailwind into our projects, within days I was a Tailwind convert and use it for all of my personal projects.',
+      '저는 마지막 개발자가 왜 프로젝트에 Tailwind를 투입했는지 의구심을 품으며 취직했지만, 며칠만에 저는 모든 프로젝트를 테일윈드로 변경했습니다.',
     tweetUrl: 'https://twitter.com/maddiexcampbell/status/1303752658029740032',
     author: {
       name: 'Madeline Campbell',
@@ -86,7 +86,7 @@ const testimonials = [
 
   {
     content:
-      'There’s one thing that sucks about @tailwindcss - once you’ve used it on a handful of projects it is a real pain in the ass to write normal CSS again.',
+      '@tailwindcss 의 유일한 단점은 이겁니다 - 사용하기 시작하면 평범한 CSS를 다시 작성하는 것이 고통으로 다가올 수 있습니다.',
     tweetUrl: 'https://twitter.com/iamgraem_e/status/1322861404781748228?s=21',
     author: {
       name: 'Graeme Houston',
@@ -96,7 +96,7 @@ const testimonials = [
   },
 
   {
-    content: `Okay, I’m officially *all* in on the @tailwindcss hype train. Never thought building websites could be so ridiculously fast and flexible.`,
+    content: `웹사이트 만들기가 이렇게 유연할 줄 몰랐습니다.`,
     tweetUrl: 'https://twitter.com/lukeredpath/status/1316543571684663298?s=21',
     author: {
       name: 'Aaron Bushnell',
@@ -107,7 +107,7 @@ const testimonials = [
 
   {
     content:
-      'Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and you use flex, grid, etc. but just quicker to write and maintain.',
+      'CSS를 10년 넘게 삽질했지만, 테일윈드는 저의 일을 덜어줬습니다. 아직도 CSS고 그리드, 플렉스 등을 사용하지만, 빠르게 작성과 유지보수가 가능합니다.',
     tweetUrl: 'https://twitter.com/debs_obrien/status/1243255468241420288',
     author: {
       name: `Head of Learning @ Nuxt.js`,
