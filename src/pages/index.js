@@ -74,12 +74,12 @@ export default function Home() {
         <meta
           key="twitter:title"
           name="twitter:title"
-          content="Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          content="테일윈드 CSS - 빠르게 현대적 웹페이지를 HTML을 떠나지 않고 만드세요."
         />
         <meta
           key="og:title"
           property="og:title"
-          content="Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          content="테일윈드 CSS - 빠르게 현대적 웹페이지를 HTML을 떠나지 않고 만드세요."
         />
         <title>Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.</title>
       </Head>
@@ -90,15 +90,15 @@ export default function Home() {
             <div className="flex space-x-6 sm:space-x-10">
               <NextLink href="/docs">
                 <a className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200">
-                  <span className="sm:hidden">Docs</span>
-                  <span className="hidden sm:inline">Documentation</span>
+                  <span className="sm:hidden">문서</span>
+                  <span className="hidden sm:inline">안내 문서</span>
                 </a>
               </NextLink>
               <a
                 href="https://github.com/tailwindlabs/tailwindcss"
                 className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
               >
-                <span className="sr-only">Tailwind CSS on GitHub</span>
+                <span className="sr-only">깃허브에서 Tailwind CSS</span>
                 <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor">
                   <path
                     fillRule="evenodd"
@@ -110,18 +110,17 @@ export default function Home() {
           </div>
           <Logo className="w-auto h-7 sm:h-8" />
           <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
-            Rapidly build modern websites without ever leaving your HTML.
+            현대적 웹페이지를 HTML 안에서 빠르게 만드세요.
           </h1>
           <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-10 sm:mb-11">
-            A utility-first CSS framework packed with classes like <InlineCode>flex</InlineCode>,{' '}
-            <InlineCode>pt-4</InlineCode>, <InlineCode>text-center</InlineCode> and{' '}
-            <InlineCode>rotate-90</InlineCode> that can be composed to build any design, directly in
-            your markup.
+           <InlineCode>flex</InlineCode>,{' '}
+            <InlineCode>pt-4</InlineCode>, <InlineCode>text-center</InlineCode> 및{' '}
+            <InlineCode>rotate-90</InlineCode> 와 같은 클래스가 포함된 도구 우선 CSS 프레임워크, 어떤 디자인이든 만들고, 마크업 안에서 끝내기
           </p>
           <div className="flex flex-wrap space-y-4 sm:space-y-0 sm:space-x-4 text-center">
             <NextLink href="/docs">
               <a className="w-full sm:w-auto flex-none bg-gray-900 hover:bg-gray-700 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">
-                Get started
+                시작하기
               </a>
             </NextLink>
             <NpmInstallButton />
@@ -132,12 +131,12 @@ export default function Home() {
       <section className="relative z-10 text-center max-w-screen-lg xl:max-w-screen-xl mx-auto">
         <div className="px-4 sm:px-6 md:px-8">
           <BigText as="h2" className="mb-8">
-            <Widont>“Best practices” don’t actually work.</Widont>
+            <Widont>“좋은 예시” 가 언제나 작동하진 않습니다</Widont>
           </BigText>
           <figure>
             <blockquote>
               <Paragraph className="max-w-4xl mx-auto mb-6">
-                I’ve written{' '}
+                저는{' '}
                 <a
                   href="https://adamwathan.me/css-utility-classes-and-separation-of-concerns/"
                   className="text-light-blue-600 font-semibold"
@@ -146,13 +145,13 @@ export default function Home() {
                       'inset 0 -0.1666666667em 0 0 #fff, inset 0 -0.3333333333em 0 0 #bae6fd',
                   }}
                 >
-                  a few thousand words
+                   몇천 단어
                 </a>{' '}
                 <Widont>
-                  on why traditional “semantic class names” are the reason CSS is hard to maintain,
-                  but the truth is you’re never going to believe me until you actually try it. If
-                  you can suppress the urge to retch long enough to give it a chance, I really think
-                  you'll wonder how you ever worked with CSS any other way.
+                 를 “시멘틱 클래스 이름”에 사용했고, 이것이 CSS가 운영하기 어려운 이유였습니다.
+               그러나 사실은 당신이 시도하기 전까지 저를 믿지 못할 겁니다. 만약
+                   기회를주기에 충분히 오래 물러서 고 싶은 충동을 억제 할 수 있습니다.
+                   다른 방식으로 CSS를 어떻게 사용했는지 궁금 할 것입니다.
                 </Widont>
               </Paragraph>
             </blockquote>
@@ -166,7 +165,7 @@ export default function Home() {
                 />
               </div>
               <div className="text-gray-900">Adam Wathan</div>
-              <div className="text-light-blue-600">Creator of Tailwind CSS</div>
+              <div className="text-light-blue-600">Tailwind CSS 제작자</div>
             </figcaption>
           </figure>
         </div>
