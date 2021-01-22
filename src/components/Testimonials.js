@@ -18,7 +18,7 @@ const rotation = [-2, 1, -1, 2, -1, 1]
 
 const testimonials = [
   {
-    content: 'I feel like an idiot for not using Tailwind CSS until now.',
+    content: '지금까지 테일윈드를 몰랐던 제가 바보 같아요.',
     tweetUrl: 'https://twitter.com/ryanflorence/status/1187951799442886656',
     author: {
       name: 'Ryan Florence',
@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     content:
-      'If I had to recommend a way of getting into programming today, it would be HTML + CSS with Tailwind CSS.',
+      '프로그래밍을 오늘날 시작한다 하면, 그것은 HTML+CSS와 테일윈드 CSS일겁니다.',
     tweetUrl: 'https://twitter.com/rauchg/status/1225611926320738304',
     author: {
       name: 'Guillermo Rauch',
@@ -37,7 +37,7 @@ const testimonials = [
     },
   },
   {
-    content: `I have no design skills and with Tailwind I can actually make good looking websites with ease and it's everything I ever wanted in a CSS framework.`,
+    content: `저는 어떤 디자인 능력도 없지만 Tailwind와 함께 저는 멋진 웹사이트를 쉽게 만들 수 있었고 CSS 프레임워크에 필요한 모든 것들이였습니다.`,
     author: {
       name: 'Sara Vieira',
       role: 'CodeSandbox',
@@ -46,7 +46,7 @@ const testimonials = [
   },
   {
     content:
-      "I used Tailwind to redesign feltpresence.com the other day. It's fantastic! I only gave myself a few hours to hack it together and it made a huge difference.",
+      "feltpresence.com을 어느 날 리디자인하기 위해서 테일윈드를 사용했습니다. 엄청났어요! 저 자신에게 해킹을 위해 몇 시간 동안 소비했으며, 큰 변화를 줬어.",
     author: {
       name: 'Ryan Singer',
       role: 'Basecamp',
